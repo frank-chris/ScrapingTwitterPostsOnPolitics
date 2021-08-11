@@ -8,7 +8,8 @@ Scraping Twitter posts on Indian politics. An assignment for CS 613 (Natural Lan
 
 ## Twint
 
-[GitHub](https://github.com/twintproject/twint)
+[GitHub](https://github.com/twintproject/twint)     
+[Wiki-Basic Usage](https://github.com/twintproject/twint/wiki/Basic-usage)
 
 When installing Twint, don't use the commands given on their README. They are broken. I found this from an issue (use this command to install Twint):
 
