@@ -51,4 +51,19 @@ twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats -
 
 ## Search phrases
 
-(TBD)
+| Sub topic                | List of `SEARCH_PHRASE`s |
+|--------------------------|--------------------------|
+| Pegasus snooping         |'pegasus snooping', |
+| Farmer agitation         |'farmer agitation',|
+| Bengal Election 2021     |'bengal election 2021',|
+| Farm laws                |'farm laws',|
+| Education policy         |'education policy',|
+| Tamil Nadu Election 2021 |'tamil nadu election 2021',|
+| Assam election 2021      |'assam election 2021',|
+| CAA protest              |'CAA protest',|
+| CAA protest              |'CAA protest',|
+| Kerala election 2021     |'kerala election 2021',|
+| Union budget 2021        |'union budget 2021',|
+| Freedom of Religion Act  |'freedom of religion act',|
+| Lakshadweep protest      |'lakshadweep protest',|
+| Union Ministry Reshuffle |'union ministry reshuffle',|
