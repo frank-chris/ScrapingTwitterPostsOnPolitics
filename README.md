@@ -61,7 +61,7 @@ twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats -
 | Tamil Nadu Election 2021 |'tamil nadu election 2021',|
 | Assam election 2021      |'assam election 2021',|
 | CAA protest              |'CAA protest',|
-| CAA protest              |'CAA protest',|
+| NRC protest              |'NRC protest',|
 | Kerala election 2021     |'kerala election 2021',|
 | Union budget 2021        |'union budget 2021',|
 | Freedom of Religion Act  |'freedom of religion act',|
