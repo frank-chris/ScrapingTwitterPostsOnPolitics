@@ -41,12 +41,12 @@ But you'll have to add it to PATH to use the CLI version.
 ## Command used
 
 ```sh
-twint -s SEARCH_PHRASE -o OUTPUT_FILE_NAME --csv --hashtags --stats 
+twint -s SEARCH_PHRASE -o OUTPUT_FILE_NAME --csv --hashtags --stats -ho 
 ```
 
 Example:
 ```sh
-twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats 
+twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats -ho
 ```
 
 After this, we have to create and run a script on the generated csv files to get replies to these tweets. We also need to then remove duplicates and create 1 csv file per subtopic.
