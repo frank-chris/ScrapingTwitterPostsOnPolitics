@@ -41,14 +41,31 @@ But you'll have to add it to PATH to use the CLI version.
 ## Command used
 
 ```sh
-twint -s SEARCH_PHRASE -o OUTPUT_FILE_NAME --csv --hashtags --stats --get-replies 
+twint -s SEARCH_PHRASE -o OUTPUT_FILE_NAME --csv --hashtags --stats 
 ```
 
 Example:
 ```sh
-twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats --get-replies 
+twint -s 'pegasus snooping' -o 'pegasus_snooping.csv' --csv --hashtags --stats 
 ```
+
+After this, we have to create and run a script on the generated csv files to get replies to these tweets. We also need to then remove duplicates and create 1 csv file per subtopic.
 
 ## Search phrases
 
-(TBD)
+| Sub topic                | List of `SEARCH_PHRASE`s |
+|--------------------------|--------------------------|
+| Pegasus snooping         |'pegasus snooping', |
+| Farmer agitation         |'farmer agitation',|
+| Bengal Election 2021     |'bengal election 2021',|
+| Farm laws                |'farm laws',|
+| Education policy         |'education policy',|
+| Tamil Nadu Election 2021 |'tamil nadu election 2021',|
+| Assam election 2021      |'assam election 2021',|
+| CAA protest              |'CAA protest',|
+| NRC protest              |'NRC protest',|
+| Kerala election 2021     |'kerala election 2021',|
+| Union budget 2021        |'union budget 2021',|
+| Freedom of Religion Act  |'freedom of religion act',|
+| Lakshadweep protest      |'lakshadweep protest',|
+| Union Ministry Reshuffle |'union ministry reshuffle',|
