@@ -35,7 +35,7 @@ But you'll have to add it to PATH to use the CLI version.
 11. Union budget 2021 - Glint
 12. Freedom of Religion Act - Glint
 13. Lakshadweep protest - Glint
-14. Union ministry reshuffle - Glint
+14. Union ministry reshuffle - Glint   
 (if we have any more ideas - Glint)
 
 ## Command used
