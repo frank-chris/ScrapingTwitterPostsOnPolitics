@@ -1,3 +1,8 @@
+# Files on Local Computer, for testing
+chris.csv
+peg_snoo.sh
+x.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
