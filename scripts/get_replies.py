@@ -10,7 +10,7 @@ output_loc = '../scraped_replies/amey/psgate_replies.csv'
 output = pd.DataFrame(columns=df.columns)
 output.set_index('id')
 
-for twt in tqdm(range(len(df.iloc[:3, :].index))):
+for twt in tqdm(range(len(df.index))):
     username = "to:@" + df.loc[twt, 'username'] # All tweets sent to this user
     dt = datetime.strptime(df.loc[twt, 'date'], "%Y-%m-%d") # Date of sending
     dtb = str(dt + timedelta(days = -1))
