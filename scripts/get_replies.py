@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import twint
 import pandas as pd
 import os
+from tqdm import tqdm
 
 df = pd.read_csv('../scraped_tweets_no_replies/amey/psgate.csv', sep='\t', dtype={'place':str}, error_bad_lines=True, warn_bad_lines=True)
 # for the place column it is important to explicitly mention the data type.
@@ -9,7 +10,7 @@ output_loc = '../scraped_replies/amey/psgate_replies.csv'
 output = pd.DataFrame(columns=df.columns)
 output.set_index('id')
 
-for twt in range(len(df.iloc[:3, :].index)):
+for twt in tqdm(range(len(df.iloc[:3, :].index))):
     username = "to:@" + df.loc[twt, 'username'] # All tweets sent to this user
     dt = datetime.strptime(df.loc[twt, 'date'], "%Y-%m-%d") # Date of sending
     dtb = str(dt + timedelta(days = -1))
