@@ -9,6 +9,7 @@ df = pd.read_csv('../scraped_tweets_no_replies/amey/psgate.csv', sep='\t', dtype
 output_loc = '../scraped_replies/amey/psgate_replies.csv'
 output = pd.DataFrame(columns=df.columns)
 output.set_index('id')
+output.to_csv(output_loc, sep='\t')
 
 for twt in tqdm(range(len(df.index))):
     username = "to:@" + df.loc[twt, 'username'] # All tweets sent to this user
@@ -34,4 +35,10 @@ for twt in tqdm(range(len(df.index))):
         output = output.append(df_temp[df_temp['conversation_id'] == conv_id])
         os.remove('temp.csv')
 
-output.to_csv(output_loc, sep='\t')
+    if (twt + 1) % 50 == 0:
+        output.to_csv(output_loc, sep='\t', mode='a', header=False)
+        output = pd.DataFrame(columns=df.columns)
+        output.set_index('id')
+        print(output)
+
+
