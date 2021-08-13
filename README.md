@@ -27,20 +27,19 @@ First priority:
 1. Pegasus snooping - Amey
 2. Farmer agitation/protest - Chris
 3. Bengal election 2021 - Glint
-4. Farm laws - Amey
   
 Then:    
    
-6. Education policy 
-7. Tamil Nadu election 2021 
-8. Assam election 2021 
-9. CAA protest 
-10. NRC protest 
-11. Kerala election 2021 
-12. Union budget 2021 
-13. Freedom of Religion Act 
-14. Lakshadweep protest 
-15. Union ministry reshuffle 
+4. Education policy 
+5. Tamil Nadu election 2021 - Chris   
+6. Assam election 2021  - Chris   
+7. CAA protest 
+8. NRC protest 
+9. Kerala election 2021  - Chris  
+10. Union budget 2021   
+11. Freedom of Religion Act 
+12. Lakshadweep protest 
+13. Union ministry reshuffle 
 
 
 ## Command used
