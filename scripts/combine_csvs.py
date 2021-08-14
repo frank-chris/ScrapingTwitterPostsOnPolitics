@@ -34,7 +34,7 @@ def combine_csvs(csv_paths:list, output_path:str):
     """
     list_dfs = []
     for path in csv_paths:
-        df = pd.read_csv(path, sep='\t')
+        df = pd.read_csv(path, sep='\t', dtype={'place':str}, error_bad_lines=False)
         list_dfs.append(df)
 
     combined_df = pd.concat(list_dfs, ignore_index=True)
