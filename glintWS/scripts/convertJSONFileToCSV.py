@@ -3,9 +3,9 @@ import csv
 
 
 #input data file containing all the stuff
-dataFileName = "test.csv"
+dataFileName = "glintWS/data/BengalElection2021Replies.csv"
 data = []
-outputFileName = "data_file.csv"
+outputFileName = "glintWS/data/bengal_election_2021_replies.csv"
 
 with open (dataFileName) as f:
         for line in f:
