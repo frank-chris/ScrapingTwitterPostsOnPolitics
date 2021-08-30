@@ -64,6 +64,7 @@ def jasonHandling():
             break
 
         if countWords(dataPoint["tweet"]) - (len(dataPoint["hashtags"]) + len(dataPoint["mentions"])) > 5 :
+            print(dataPoint["id"],end="\t")
             print(re.sub(r'(\s)@\w*', r'\1', re.sub(r'(\s)#\w*', r'\1', dataPoint["tweet"])), end="\t")
             print(dataPoint["language"])
             itVariable = itVariable + 1
@@ -71,7 +72,7 @@ def jasonHandling():
             
         
         # if itVariable == 0:
-        #     print(dataPoint.keys())
+        # print(dataPoint.keys())
         #     print(dataPoint)
         
         # print("\n\nNext Tweet:")
