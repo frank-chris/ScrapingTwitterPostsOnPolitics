@@ -38,7 +38,7 @@ def combine_csvs(csv_paths:list, output_path:str):
         list_dfs.append(df)
 
     combined_df = pd.concat(list_dfs, ignore_index=True)
-    combined_df.drop_duplicates(subset='id', inplace=True, ignore_index=True)
+    combined_df.drop_duplicates(subset=['id', 'tweet'], inplace=True, ignore_index=True)
 
     combined_df.to_csv(output_path, sep='\t', index=False)
 

@@ -1,0 +1,268 @@
+
+scraped_combined/Farmer Agitation.csv:
+
+top 10 hashtags
+ farmersprotest               58771
+farmerprotest                 3230
+msp_कानून_बनाना_पड़ेगा        3157
+किसानों_की_क्रांति            3144
+farmersparliament             2533
+msp_farmersright              2530
+zeenews_दलाल_मोदी_का          2443
+किसान_नहीं_भाजपा_मवाली        2383
+किसान_वारिस_उधम_सिंह_के       2333
+तानाशाह_मोदी_किसान_विरोधी     2315
+dtype: int64
+top 10 mentions
+ rakeshtikaitbku    705
+narendramodi       522
+sohi_ajit          492
+rahulgandhi        437
+prabhjy51070160    389
+kisanektamorcha    380
+pmoindia           331
+tractor2twitr      287
+bjp4india          258
+officialbku        249
+dtype: int64
+language tags en       28152
+und      13404
+hi       10079
+pa        9592
+in         922
+tl         331
+et         316
+it         240
+ht         170
+ta         149
+hu          98
+da          80
+es          78
+mr          77
+fr          73
+ml          53
+tr          48
+nl          45
+bn          44
+gu          43
+kn          41
+ne          34
+cy          32
+sv          31
+ur          30
+lv          27
+ca          26
+fi          19
+te          18
+de          16
+or          16
+pt          16
+eu          16
+no          16
+ro          15
+lt          11
+sl          10
+pl           9
+cs           7
+is           5
+vi           3
+ja           3
+False        2
+ar           1
+el           1
+Name: language, dtype: int64
+No of tweets 64403
+No of mentions 23856
+No of hashtags 146271
+No of unique mentions 4678
+No of unique hashtags 7501
+No of unique languages 45
+Max number of tweets in a day 5469
+Time zones 2
+No of conversations/threads 58042
+No of users 13035
+No of places 8
+Total number of likes 982268.0
+No of videos 20100.0
+geo tags count 0
+percentage of tweets that are retweets 49.12969892706862
+Total no of retweets received 638083.0
+Total no of replies received 45143.0
+
+scraped_combined/West Bengal Election 2021.csv:
+
+top 10 hashtags
+ bengalelection2021       20110
+bengal                    2780
+bengalviolence            2745
+bengalburning             2223
+mamatabanerjee            1615
+mamtabanerjee             1279
+bjp                       1181
+bengalisburning           1073
+presidentruleinbengal      694
+didi                       684
+dtype: int64
+top 10 mentions
+ mamataofficial    1419
+narendramodi      1195
+bjp4india         1024
+amitshah           936
+aitcofficial       452
+pmoindia           419
+bjp4bengal         395
+suvenduwb          272
+jpnadda            247
+incindia           231
+dtype: int64
+language tags en     10063
+hi      6342
+und     2219
+in       424
+bn       379
+tl       174
+mr       158
+fr       157
+ht        95
+et        86
+or        58
+gu        47
+es        45
+pa        35
+te        35
+ne        23
+it        22
+ur        18
+tr        18
+eu        16
+pt        12
+ca        12
+lt        12
+ta        11
+lv         9
+da         9
+ml         9
+nl         9
+de         9
+kn         8
+fi         8
+hu         5
+sv         5
+ro         4
+cy         4
+sl         3
+pl         2
+ar         2
+no         2
+cs         2
+vi         2
+Name: language, dtype: int64
+No of tweets 20553
+No of mentions 14241
+No of hashtags 68446
+No of unique mentions 2279
+No of unique hashtags 5150
+No of unique languages 41
+Max number of tweets in a day 7568
+Time zones 1
+No of conversations/threads 19157
+No of users 14365
+No of places 0
+Total number of likes 196883
+No of videos 5636
+geo tags count 0
+percentage of tweets that are retweets 100.0
+Total no of retweets received 51645
+Total no of replies received 11393
+
+scraped_combined/Pegasus Snooping.csv:
+
+top 10 hashtags
+ pegasussnoopgate          26193
+pegasus                    6638
+pegasusproject             5629
+pegasusspyware             3604
+pegasussnoopingscandal     1389
+pegasusgate                 658
+bharatiyajasoosparty        599
+bhartiyajasoosparty         494
+farmersprotest              456
+supremecourt                433
+dtype: int64
+top 10 mentions
+ rahulgandhi       1269
+narendramodi       709
+incindia           633
+bjp4india          381
+amitshah           328
+pmoindia           243
+mamataofficial     241
+thewire_in         202
+priyankagandhi     154
+aitcofficial       140
+dtype: int64
+language tags en     18254
+hi      8691
+und     4909
+ta       997
+in       376
+mr       302
+bn       243
+tl       176
+kn       168
+et       131
+fr        85
+gu        76
+es        65
+ml        64
+ht        60
+te        46
+ne        45
+eu        35
+it        25
+ur        21
+nl        21
+de        20
+sv        20
+fi        15
+pt        15
+or        15
+ro        14
+sl        14
+tr        13
+ca        12
+lt        10
+hu        10
+lv         8
+cs         8
+da         7
+cy         6
+pa         5
+pl         5
+el         5
+no         4
+ar         3
+vi         3
+fa         3
+zh         2
+si         2
+is         1
+ja         1
+Name: language, dtype: int64
+No of tweets 35011
+No of mentions 16647
+No of hashtags 74440
+No of unique mentions 3316
+No of unique hashtags 5962
+No of unique languages 47
+Max number of tweets in a day 6040
+Time zones 1
+No of conversations/threads 23282
+No of users 16396
+No of places 1
+Total number of likes 723665
+No of videos 7669
+geo tags count 0
+percentage of tweets that are retweets 100.0
+Total no of retweets received 210546
+Total no of replies received 36779
